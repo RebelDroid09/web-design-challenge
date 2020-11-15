@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic CSS Example</title>
+
+<style>
+
+  h1 {
+    margin-bottom: 15px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    background-color: black;
+  }
+
+  h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  ul {
+    text-align: center;
+    font-size: 35px;
+    border-style: solid;
+    border-width: 5px;
+    list-style-position: inside;
+  }
+</style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+            <div class="col-md-3">
+                <h3>Visualization Links</h3>
+
+                <ul>
+                    <li>Figure 1:<a href=""><img border="0" alt="Visualization 1" src="Resources/assets/images/Fig1.png" width="100" height="100"></a></li>
+                    <li>Figure 2:<a href=""><img border="0" alt="Visualization 1" src="Resources/assets/images/Fig2.png" width="100" height="100"></a></li>
+                    <li>Figure 3:<a href=""><img border="0" alt="Visualization 1" src="Resources/assets/images/Fig3.png" width="100" height="100"></a></li>
+                    <li>Figure 4:<a href=""><img border="0" alt="Visualization 1" src="Resources/assets/images/Fig4.png" width="100" height="100"></a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-9">
+                <h1>Summary: Latitude vs. X</h1>
+                <h2>Smaller Awesome Header</h2>
+                <h3>Even Smaller Header</h3>
+
+                <p>
+                    The purpose of this project is to analyze how weather changes as you get close to the equator. To Accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                </p>
+
+                <p>
+                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
+                </p>
+
+                <img src="Resources/assets/images/Fig1.png" alt="Weather Analysis" width="25%">
+            </div>
+    </div>
+</div>
+
+</body>
+
+</html>
