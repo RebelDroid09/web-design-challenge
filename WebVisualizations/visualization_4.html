@@ -6,16 +6,139 @@
         <title>Visualization 4</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+
+        <style>
+
+            h1 {
+              margin-bottom: 15px;
+              color: white;
+              text-align: center;
+              text-decoration: underline;
+              background-color: black;
+              width: 100%;
+              font-size: 40px;
+            }
+          
+            h2 {
+              margin-top: 15px;
+              margin-bottom: 15px;
+              font-size: 20px;
+              text-align: center;
+            }
+          
+            h3 {
+              margin-top: 15px;
+              font-size: 10px;
+              text-align: center;
+            }
+          
+            a {
+              width: 100%;
+            }
+          
+            img {
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+            }
+          
+            p {
+              text-align: center;
+              font-size: 20px;
+              font-weight: bold;
+            }
+          
+            ul {
+              text-align: center;
+              font-size: 35px;
+              border-style: solid;
+              border-width: 5px;
+              list-style-position: inside;
+            }
+          
+            /* Dropdown Button */
+          .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            margin: 5px;
+          }
+          
+          /* The container <div> - needed to position the dropdown content */
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          
+          /* Dropdown Content (Hidden by Default) */
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          /* Links inside the dropdown */
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          
+          /* Change color of dropdown links on hover */
+          .dropdown-content a:hover {background-color: #ddd;}
+          
+          /* Show the dropdown menu on hover */
+          .dropdown:hover .dropdown-content {display: block;}
+          
+          /* Change the background color of the dropdown button when the dropdown content is shown */
+          .dropdown:hover .dropbtn {background-color: #3e8e41;}
+          </style>
     </head>
 
     <body>
-        <div class="col-md-12">
-            <h1>Figure 4</h1>
-            <h2>City Latitude vs. Wind Speed</h2>
-            <h3>(01/05/17)</h3>  
-            <br>          
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3><a href="visualizations.html">Visualizations by Paul</a></h1>
+                </div>
+                <div class="col-md-2">
+        
+                </div>
+                <div class="col-md-2">
+                  <div class="dropdown">
+                    <button class="dropbtn">Plots</button>
+                    <div class="dropdown-content">
+                      <a href="visualization_1.html">Figure 1</a>
+                      <a href="visualization_2.html">Figure 2</a>
+                      <a href="visualization_3.html">Figure 3</a>
+                      <a href="visualization_4.html">Figure 4</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <h3><a href="comparison.html">Comparisons</a></h1>
+                </div>
+                <div class="col-md-2">
+                  <h3><a href="cityData.html">Data</a></h1>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Figure 4</h1>
+                    <h2>City Latitude vs. Wind Speed</h2>
+                    <h3>(01/05/17)</h3>  
+                    <br>          
 
-            <img src="Resources/assets/images/Fig4.png" alt="Weather Analysis" width="100%">
+                    <img src="Resources/assets/images/Fig4.png" alt="Weather Analysis" width="100%">
+                </div>
+            </div>
         </div>
     </body>
 </html>
